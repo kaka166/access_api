@@ -1,4 +1,5 @@
 const db = require("../models");
+const Category = db.categories;
 const Quiz = db.quizzes;
 
 // menambahkan data ke dalam tabel quiz
